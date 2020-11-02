@@ -1,0 +1,26 @@
+#validation-input {
+  border: 3px solid rgb(158, 166, 216);
+  margin-bottom: 20px;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+/* task7 */
+#font-size-control {
+  display: block;
+}
+#controls{
+  margin-top: 50px;
+}
+#validation-input.valid {
+  border-color: green;
+}
+#validation-input.invalid {
+  border-color: red;
+}
